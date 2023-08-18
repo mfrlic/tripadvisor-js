@@ -1,6 +1,6 @@
 {
   "name": "@terro-io/tripadvisor-js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "@terro-io",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -25,9 +25,9 @@
   "exports": {
     ".": "./dist/index.js",
     "./getLocationDetails/types": "./dist/getLocationDetails/types.js",
-    "./getLocationPhotos/types": "./dist/getLocationPhotos/index.js",
-    "./getLocationReviews/types": "./dist/getLocationReviews/index.js",
-    "./locationSearch/types": "./dist/locationSearch/index.js",
+    "./getLocationPhotos/types": "./dist/getLocationPhotos/types.js",
+    "./getLocationReviews/types": "./dist/getLocationReviews/types.js",
+    "./locationSearch/types": "./dist/locationSearch/types.js",
     "./nearbyLocationSearch/types": "./dist/nearbyLocationSearch/types.js"
   }
 }
