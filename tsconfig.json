@@ -12,12 +12,7 @@
 
     "declaration": true,
     "sourceMap": true,
-    "outDir": "dist",
-
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "outDir": "dist"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }

@@ -2,8 +2,8 @@ import {
   TRIPADVISOR_API_KEY,
   TRIPADVISOR_API_URL,
   fetchOptions,
-} from "@/constants";
-import parseUrlSearchParams from "@/utils";
+} from "../constants";
+import parseUrlSearchParams from "../utils";
 
 import type { LocationDetailsResponse } from "./types";
 
