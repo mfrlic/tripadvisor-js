@@ -1,16 +1,16 @@
 {
   "name": "@terro-io/tripadvisor-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "@terro-io",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "prepare": "npm version patch --force && npm run build",
-    "rimraf": "^5.0.1"
+    "prepare": "npm version patch --force && npm run build"
   },
   "devDependencies": {
     "@types/node": "^20.5.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "rimraf": "^5.0.1"
   },
   "publishConfig": {
     "access": "restricted",
