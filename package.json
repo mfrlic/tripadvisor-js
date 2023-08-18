@@ -1,0 +1,28 @@
+{
+  "name": "@terro-io/tripadvisor-js",
+  "version": "0.0.2",
+  "author": "@terro-io",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "prepare": "npm version patch --force && npm run build",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "@terro-io:registry": "https://npm.pkg.github.com/terro-io"
+  },
+  "repository": "https://github.com/terro-io/tripadvisor-js.git",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  }
+}
